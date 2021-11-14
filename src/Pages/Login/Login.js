@@ -30,12 +30,8 @@ function LoginPage() {
         const users = userRes.data;
         const posts = postRes.data;
         if (user.role === "ADMIN") {
-          const pendingPosts = posts.filter((item) => {
-            if (!item.isApproved) return item;
-          });
-          const approvedPosts = posts.filter((item) => {
-            if (item.isApproved) return item;
-          });
+          const pendingPosts = posts.filter((item) => !item.isApproved);
+          const approvedPosts = posts.filter((item) => item.isApproved);
           dispatch({
             type: "SET_USERS",
             payload: { users: users },
