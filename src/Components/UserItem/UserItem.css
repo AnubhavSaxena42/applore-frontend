@@ -1,0 +1,18 @@
+.user-item-container{
+    border:0.1px solid black;
+    padding:2%;
+    margin:1%
+}
+.user-actions-container{
+    display: flex;
+    margin-top: 1%;
+}
+.user-status-button{
+    border:0.1px solid #000000;
+    margin-right: 3%;
+    padding:1%
+}
+.user-delete-button{
+    border:0.1px solid black;
+    padding:1%;
+}

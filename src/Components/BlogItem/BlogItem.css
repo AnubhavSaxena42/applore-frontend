@@ -1,0 +1,14 @@
+.blog-item-container{
+    display: flex;
+    border:0.1px solid black;
+    padding:4%;
+    flex-direction: column;
+    margin-bottom: 1%;
+    width: 80%
+}
+.blog-item-heading{
+    font-size:2em;
+}
+.blog-item-description{
+    font-size: 0.8em;
+}

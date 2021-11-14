@@ -1,0 +1,61 @@
+.blog-post-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.blog-post-top-container {
+  border-bottom: 0.1px solid black;
+}
+.blog-post-heading {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.blog-post-content {
+  padding-left: 2%;
+  padding-top: 2%;
+}
+.blog-post-author {
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.blog-actions-container {
+  border-top: 0.1px solid black;
+  padding-left: 2%;
+  display: flex;
+  justify-content: flex-start;
+}
+.blog-edit-button {
+  margin-top: 2%;
+  border: 1px solid black;
+  padding: 1%;
+}
+.blog-delete-button {
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 1%;
+}
+.blog-edit-container {
+  padding-top: 2%;
+}
+.blog-approve-button {
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-top: 2%;
+  padding: 1%;
+}
+.blog-active-button {
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 1%;
+  }
+.apply-edit-button {
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-top: 3%;
+  padding: 1%;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 5%;
+}

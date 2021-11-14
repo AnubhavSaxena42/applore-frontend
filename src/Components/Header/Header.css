@@ -1,0 +1,13 @@
+.header-container{
+    height:5rem;
+    border-bottom: 3px solid black;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    font-size: large;
+    font-weight: 700;
+}
